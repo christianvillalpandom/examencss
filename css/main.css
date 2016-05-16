@@ -1,10 +1,81 @@
 body {
-  background: #444; }
+  position: absolute;
+  background: black; }
 
-.navbar-brand > img {
+.container-fluid {
   margin: 0;
-  width: 12rem;
+  padding: 0; }
+
+.collapse {
+  margin: 1px;
+  padding: 0; }
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  background: #BDBDBD; }
+
+.navbar-header {
+  margin: 0;
+  padding: 0; }
+
+.navbar-brand {
+  margin: 0;
+  padding: 0; }
+
+.logo {
+  margin: 9px 10px 0px 20px;
+  width: 14rem;
   padding: 0;
   height: auto; }
+
+.navbar-default .navbar-nav > li > a {
+  color: white; }
+
+.navbar-default:hover .navbar-nav:hover > li > a {
+  color: blue; }
+
+.meenuhover {
+  font-size: 2rem; }
+
+.meenuhover:hover {
+  background-color: #A6AFA7;
+  border-radius: 30px;
+  font-size: 3rem; }
+
+.ins {
+  height: 40px;
+  width: 100px;
+  margin: 5px 0px;
+  border: 1px solid pink;
+  background: #FFFF00;
+  border-radius: 15px;
+  color: red;
+  font: VERDANA 1.5rem;
+  font-weight: bold; }
+
+.ins:hover {
+  border: 1px solid yellow;
+  background: pink;
+  border-radius: 15px;
+  font: VERDANA 1.5rem cursive;
+  color: green;
+  font-weight: bold;
+  font-style: italic; }
+
+.navbar-form {
+  float: right; }
+
+.form-control {
+  border-radius: 15px;
+  color: #FF8000; }
+
+.bbuscar {
+  background: #FF8000;
+  border-radius: 15px; }
+
+.bbuscar:hover {
+  background-color: pink;
+  color: white; }
 
 /*# sourceMappingURL=main.css.map */
