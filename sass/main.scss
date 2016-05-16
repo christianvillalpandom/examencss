@@ -1,0 +1,19 @@
+$color-primary: #444;
+$color-second: #444;
+$font-size: 16px;
+$width-navbar: 12rem;
+$margin-navbar: 0;
+$pad-navbar: 0;
+
+body{
+	background: $color-primary;
+}
+
+.navbar-brand {
+	& > img {
+		margin: $margin-navbar;
+		width: $width-navbar;
+		padding: $pad-navbar;
+		height: auto;
+	}
+}
